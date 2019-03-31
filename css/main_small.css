@@ -71,13 +71,14 @@ label[for='bt_menu'] {
 }
 
 body {
-    background-image: url(triunfo.jpg);
+    background-image: url(triunfo2.jpg);
     background-repeat: no-repeat;
     background-color: white;
     margin: 0px;
     padding: 0px;
     background-attachment: fixed;
     font-family: 'Yantramanav', sans-serif;
+    overflow-x: hidden;
 
 }
 
@@ -144,6 +145,7 @@ body {
 #rodape ul li {
     margin-top: 5%;
     margin-left: 23%;
+    margin-bottom: 5%;
     float: left;
     background-color: #000009;
 }
