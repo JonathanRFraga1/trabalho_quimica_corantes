@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: gold;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.menu ul {
+    list-style: none;
+    position: relative;
+}
+
+.menu ul li {
+    width: 160px;
+    float: left;
+}
+
+.menu a {
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: gold;
+    color: white;
+}
+
+.menu ul ul {
+    position: absolute;
+    visibility: hidden;
+}
+
+.menu ul li:hover ul {
+    visibility: visible;
+}
+
+.menu a:hover {
+    background-color: white;
+    color: black;
+}
+
+.menu ul ul li {
+    float: none;
+    border-top: solid 1px;
+}
+
+label[for='bt_menu'] {
+    padding: 5px;
+    background-color: gold;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+#bt_menu {
+    display: none;
+}
+
+label[for='bt_menu'] {
+    display: none;
+}
+
+body {
+    background-image: url(triunfo2.jpg);
+    background-repeat: no-repeat;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    background-attachment: fixed;
+    font-family: 'Yantramanav', sans-serif;
+    overflow-x: hidden;
+
+}
+
+#titulo {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+#desc {
+    background-color: ghostwhite;
+    text-align: center;
+}
+
+#conteudo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#direita,
+#esquerda {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center !important;
+}
+
+#frase {
+    font-size: 30px;
+    color: Azure;
+    font-style: italic;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+}
+
+#frase p {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+
+#rodape {
+    width: 100%;
+    height: 20%;
+    /*background-color: #000009;*/
+    display: block;
+}
+
+#rodape p {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+#rodape ul li {
+    margin-top: 5%;
+    margin-left: 23%;
+    margin-bottom: 5%;
+    float: left;
+    background-color: #000009;
+}
+
+table {
+    border-top-color: black;
+    border-top-style: solid;
+    border-top-width: 3px;
+
+    border-collapse: collapse;
+}
+
+table tr {
+
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+}
+
+table td {
+    width: 500px;
+    max-height: 600px;
+}
+
+#grupo {
+    text-align: left;
+    list-style: none;
+}
+
+figure {
+    align-content: center;
+}
+
+figure img {
+    width: 80%;
+    height: 200px;
+}
+
+@media(max-width:600px) {
+
+    label[for='bt_menu'] {
+        display: block;
+    }
+
+    #bt_menu:checked ~ .menu {
+        margin-left: 0;
+
+    }
+
+    .menu {
+        margin-top: 5px;
+        margin-left: -100%;
+        transition: all .4s;
+    }
+
+    .menu ul li {
+        width: 100%;
+        float: none;
+    }
+
+    .menu ul ul {
+        position: static;
+        overflow: hidden;
+        max-height: 0;
+        transition: all .4s;
+
+    }
+
+    .menu ul li:hover ul {
+        height: auto;
+        max-height: 200px;
+
+    }
+
+    #conteudo {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #direita,
+    #esquerda {
+        text-align: justify;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #rodape {
+        width: 100%;
+        height: 20%;
+        /* background-color: #000009;*/
+        list-style: none;
+    }
+
+    #rodape p {
+        color: white;
+        text-align: center;
+        font-size: 30px;
+    }
+
+
+    #rodape ul li {
+        margin-top: 5%;
+        margin-left: 45%;
+        margin-bottom: 10%;
+    }
+
+}
