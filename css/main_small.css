@@ -295,10 +295,11 @@ body {
 
     #rodape ul li {
         margin-top: 5%;
-        margin-left: 23%;
+        margin-left: 10%;
         margin-bottom: 5%;
         float: left;
         background-color: #000009;
+        list-style: none;
     }
 
 
