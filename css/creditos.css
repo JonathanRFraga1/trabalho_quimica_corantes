@@ -204,6 +204,10 @@ figure img {
         background-size: cover;
     }
 
+    #titulo h1 {
+        font-size: 30px;
+    }
+
     label[for='bt_menu'] {
         display: block;
     }
