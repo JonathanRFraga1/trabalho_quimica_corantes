@@ -7,7 +7,7 @@
     align-items: center;
     width: 100%;
     height: 50px;
-    background-color: gold;
+    background-color: Turquoise;
     font-family: 'Raleway', sans-serif;
     color: white;
 }
@@ -27,7 +27,7 @@
     display: block;
     text-decoration: none;
     text-align: center;
-    background-color: gold;
+    background-color: Turquoise;
     color: white;
 }
 
@@ -52,7 +52,7 @@
 
 label[for='bt_menu'] {
     padding: 5px;
-    background-color: gold;
+    background-color: Turquoise;
     font-family: 'Raleway', sans-serif;
     color: white;
     font-size: 30px;
@@ -71,7 +71,7 @@ label[for='bt_menu'] {
 }
 
 body {
-    background-image: url(triunfo2.jpg);
+    background-image: url(doces.jpg);
     background-repeat: no-repeat;
     background-color: white;
     margin: 0px;
@@ -79,6 +79,7 @@ body {
     background-attachment: fixed;
     font-family: 'Yantramanav', sans-serif;
     overflow-x: hidden;
+    background-size: cover;
 
 }
 
@@ -94,6 +95,7 @@ body {
 #desc {
     background-color: ghostwhite;
     text-align: center;
+    height: 100%
 }
 
 #conteudo {
@@ -129,26 +131,24 @@ body {
 
 #rodape {
     width: 100%;
-    height: 20%;
-    /*background-color: #000009;*/
+    height: 70%;
+    background-color: #ffffff !important;
     display: block;
-}
-
-#rodape p {
-    color: white;
     text-align: center;
     font-size: 30px;
+    /* color: white; */
+    list-style: none !important;
+}
+
+#rodape img {
+    backface-visibility: hidden;
+    width: 5%;
+    height: 5%;
+    color: white;
 }
 
 
 
-#rodape ul li {
-    margin-top: 5%;
-    margin-left: 23%;
-    margin-bottom: 5%;
-    float: left;
-    background-color: #000009;
-}
 
 @media(max-width:500px) {
 
@@ -186,6 +186,12 @@ body {
 
     }
 
+    #desc {
+        background-color: ghostwhite;
+        text-align: center;
+        height: 100%
+    }
+
     #conteudo {
         width: 100%;
         display: flex;
@@ -207,6 +213,7 @@ body {
         height: 20%;
         /* background-color: #000009;*/
         list-style: none;
+        float: left;
     }
 
     #rodape p {
@@ -225,6 +232,19 @@ body {
 }
 
 @media all and (orientation:portrait and min-width:501px) {
+
+    body {
+        background-image: url(doces_c.jpg);
+        background-repeat: no-repeat;
+        background-color: white;
+        margin: 0px;
+        padding: 0px;
+        background-attachment: fixed;
+        font-family: 'Yantramanav', sans-serif;
+        overflow-x: hidden;
+        background-size: cover;
+
+    }
 
     .menu {
         align-items: center;
