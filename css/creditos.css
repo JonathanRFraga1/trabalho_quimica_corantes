@@ -192,6 +192,10 @@ figure img {
 
 @media(max-width:500px) {
 
+    #titulo {
+        font-size: 23px;
+    }
+
     body {
         background-image: url(docesT.jpg);
         background-repeat: no-repeat;
@@ -266,7 +270,7 @@ figure img {
     }
 
     #rodape p {
-        color: white;
+        color: black;
         text-align: center;
         font-size: 30px;
     }

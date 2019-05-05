@@ -214,9 +214,10 @@ img.imagens {
 
 #cores {
     text-align: center;
-    color: #172b9b;
+    color: #34d3c3;
     font-size: 30px;
-    text-decoration: underline;
+    text-decoration: none;
+    font-style: oblique;
 }
 
 @media(max-width:500px) {
@@ -296,7 +297,7 @@ img.imagens {
     }
 
     #rodape p {
-        color: white;
+        color: black;
         text-align: center;
         font-size: 30px;
     }
