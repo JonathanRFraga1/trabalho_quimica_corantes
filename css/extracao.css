@@ -216,13 +216,13 @@ figure img {
         margin-left: auto;
         margin-right: auto;
         margin-top: auto;
-        width: auto;
-        height: auto;
+        width: 80%;
+        height: 80%;
     }
 
 
     body {
-        background-image: url(cores1.jpg);
+        background-image: url(teste.jpg);
         background-repeat: no-repeat;
         background-color: white;
         margin: 0px;
