@@ -189,6 +189,16 @@ body {
         font-size: 23px;
     }
 
+    body {
+        background-image: url(cores.jpg);
+        background-repeat: no-repeat;
+        background-color: white;
+        margin: 0px;
+        padding: 0px;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
     label[for='bt_menu'] {
         display: block;
     }

@@ -228,6 +228,16 @@ img.imagens {
         font-size: 20px;
     }
 
+    body {
+        background-image: url(cores.jpg);
+        background-repeat: no-repeat;
+        background-color: white;
+        margin: 0px;
+        padding: 0px;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
 
     #imagens {
         width: 100%;
