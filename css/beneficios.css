@@ -207,6 +207,10 @@ figure img {
         font-size: 23px;
     }
 
+    .ben {
+        width: 80%;
+    }
+
     body {
         background-image: url(cores1.jpg);
         background-repeat: no-repeat;
